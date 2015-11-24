@@ -4,24 +4,37 @@
 
 Look no further. I will help YOU add real intellisense to your JavaScript code.
 
-#Let's pimp-out JavaScript Intellisense
+#Let's kick JavaScript Intellisense up a notch
 
-***Note***:
-Taken from [John Papa's blog post](http://johnpapa.net/intellisense-witha-visual-studio-code/).
+Inspired by [John Papa's](http://johnpapa.net/intellisense-witha-visual-studio-code/) blog post.
 
-#Install 
+#Background
+>TSD is a package manager to search and install TypeScript definition files directly from the community driven DefinitelyTyped repository.
+
+
+Taken directly from [TypedScript Definition website](http://definitelytyped.org/tsd/).
+
+#Clone
+Clone this repo
+
+**Note**:
+The instructions assume you already have a project. But, I have provided a sample repo to play around with.
+
+#Steps
+##1. Install TSD globabally
+ 
 ````bash
 npm install tsd -g
 ````
 
-#1. Init
+##2. Init
 Create new `tsd.json` and `tsd.d.ts` files. Useful to bundle all references.
 
 ````bash
 tsd init
 ````
 
-#2. Install a package
+##2. Install a package
 Installing `knockout`
 
 ````bash
@@ -29,11 +42,11 @@ tsd install knockout --save
 ````
 **Note**: You can run this command and not run `tsd init`. But it's good practice to run `tsd init` first.
 
-# Results
+## Results
 You should have a `typings` folder with subfolder `knockout` and file `tsd.d.ts`.
 
 Inside `tsd.d.ts`:
-````javascript
+````typescript
 /// <reference path="knockout/knockout.d.ts" />
 ```` 
 
@@ -77,7 +90,7 @@ Browse `knockout` definition on github
 ````bash
 tsd query knockout -a browse
 ```` 
-Visit `knockout` homepage instead:
+Visit `knockout` homepage instead
 ````bash
 tsd query knockout -a visit
 ````

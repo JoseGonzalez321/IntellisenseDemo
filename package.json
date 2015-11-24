@@ -1,16 +1,12 @@
 {
   "name": "IntellisenseDemo",
   "version": "1.0.0",
-  "description": "Showcases Intellisense for JavaScript",
+  "description": "Sample code for adding JavaScript Intellisense",
   "main": "app.js",
-  "dependencies": {
-    "angular2": "^2.0.0-alpha.46",
-    "jquery": "^2.1.4",
-    "knockout": "^3.4.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {},
-  "keywords": ["Intellisense"],
+  "keywords": ["JavaScript", "Intellisense"],
   "author": "Jose Gonzalez",
   "license": "ISC"
 }
