@@ -21,7 +21,7 @@ Clone this repo
 The instructions assume you already have a project. But, I have provided a sample repo to play around with.
 
 #Steps
-##1. Install TSD globabally
+##1. Install TSD globally
  
 ````bash
 npm install tsd -g
