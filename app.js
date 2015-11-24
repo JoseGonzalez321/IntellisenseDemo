@@ -1,3 +1,5 @@
+var ko = require("node_modules/knockout")
+
 (function() {
 	function getCoolStuff() {				
 	

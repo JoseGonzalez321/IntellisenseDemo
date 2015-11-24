@@ -53,7 +53,14 @@ Inside `tsd.json` (at the app root level):
 }
 ````
 #Using intellisense
-Open any JavaScript file and use `knockout` with intellisense:
+Open any JavaScript file and use `knockout` with intellisense.
+
+In this sample repo: 
+* Clone this repo
+* Find the `app.js` 
+* Open it up in your favorite editor.
+* Follow the instructions inside the `app.js` file
+* Have fun! 
 
 
 #Other very useful commands
