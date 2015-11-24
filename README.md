@@ -11,7 +11,6 @@ Inspired by [John Papa's](http://johnpapa.net/intellisense-witha-visual-studio-c
 #Background
 >TSD is a package manager to search and install TypeScript definition files directly from the community driven DefinitelyTyped repository.
 
-
 Taken directly from [TypedScript Definition website](http://definitelytyped.org/tsd/).
 
 #Clone
@@ -26,7 +25,7 @@ The instructions assume you already have a project. But, I have provided a sampl
 ````bash
 npm install tsd -g
 ````
-##1b. Install a package
+###1b. Install a package
 If you cloned this repo, install `knockout` package. You can skip this step on your existing repo.
 ````bash
 npm install knockout --save
@@ -58,7 +57,6 @@ tsd install knockout --save
 ├── package.json
 ├── README.md
 └── tsd.json
-
 ````
 
 Inside `tsd.d.ts`:
@@ -85,10 +83,8 @@ Inside `tsd.json` (at the app root level):
 Open any JavaScript file and use `knockout` with intellisense.
 
 In this sample repo: 
-* Clone this repo
-* Find the `app.js` 
-* Open it up in your favorite editor.
-* Follow the instructions inside the `app.js` file
+* Open this repo in your favorite editor.
+* Follow the instructions inside the `app.js` file.
 * Have fun! 
 
 
