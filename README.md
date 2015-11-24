@@ -38,8 +38,8 @@ Create new `tsd.json` and `tsd.d.ts` files. Useful to bundle all references.
 tsd init
 ````
 
-##2. Install a TypeScript Definition file for a package
-Installing `knockout`
+##3. Install a TypeScript Definition 
+Installing TSD for `knockout`
 
 ````bash
 tsd install knockout --save
