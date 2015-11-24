@@ -87,15 +87,17 @@ In this sample repo:
 * Follow the instructions inside the `app.js` file.
 * Have fun! 
 
-
 #Other very useful commands
 
-##Search
+###Search
+*Useful to find out your favorite package has a TSD.*
+
 Simple query
+
 ````bash
 tsd query knockout
 ````
-##Open in browser
+###Open in browser
 *Useful when discovering new packages (opening browser manually is for cavemen)*
 
 Browse `knockout` definition on github 
