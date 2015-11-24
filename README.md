@@ -26,6 +26,11 @@ The instructions assume you already have a project. But, I have provided a sampl
 ````bash
 npm install tsd -g
 ````
+##1b. Install a package
+If you cloned this repo, install `knockout` package. You can skip this step on your existing repo.
+````bash
+npm install knockout --save
+````
 
 ##2. Init
 Create new `tsd.json` and `tsd.d.ts` files. Useful to bundle all references.
@@ -34,7 +39,7 @@ Create new `tsd.json` and `tsd.d.ts` files. Useful to bundle all references.
 tsd init
 ````
 
-##2. Install a package
+##2. Install a TypeScript Definition file for a package
 Installing `knockout`
 
 ````bash
@@ -43,7 +48,18 @@ tsd install knockout --save
 **Note**: You can run this command and not run `tsd init`. But it's good practice to run `tsd init` first.
 
 ## Results
-You should have a `typings` folder with subfolder `knockout` and file `tsd.d.ts`.
+
+````pre
+├── node_modules
+│   └── knockout
+├── typings
+│   └── tsd.d.ts
+├── app.js
+├── package.json
+├── README.md
+└── tsd.json
+
+````
 
 Inside `tsd.d.ts`:
 ````typescript

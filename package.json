@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "Sample code for adding JavaScript Intellisense",
   "main": "app.js",
-  "dependencies": {},
+  "dependencies": {
+    "knockout": "^3.4.0"
+  },
   "devDependencies": {},
   "scripts": {},
-  "keywords": ["JavaScript", "Intellisense"],
+  "keywords": [
+    "JavaScript",
+    "Intellisense"
+  ],
   "author": "Jose Gonzalez",
   "license": "ISC"
 }
